@@ -13,7 +13,8 @@
             <div class="flex justify-between">
                 <div class="flex space-x-7">
                     <div class="flex items-center py-4">
-                        <span class="font-semibold text-gray-500 text-lg">Your Agency Name</span>
+                        <img src="/logo.png" alt="MaximAIze Logo" class="h-8 w-8 mr-2">
+                        <span class="font-semibold text-gray-500 text-lg">MaximAIze</span>
                     </div>
                 </div>
                 <div class="flex items-center space-x-8">
@@ -62,18 +63,18 @@
         <div class="max-w-6xl mx-auto px-4 py-16">
             <h2 class="text-3xl font-bold text-center mb-12">Get In Touch</h2>
             <div class="max-w-md mx-auto bg-white rounded-lg shadow-md p-8">
-                <form>
+                <form action="mailto:maximaizeai@gmail.com" method="post" enctype="text/plain">
                     <div class="mb-4">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="name">Name</label>
-                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" required>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" name="name" type="text" required>
                     </div>
                     <div class="mb-4">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
-                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" required>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" name="email" type="email" required>
                     </div>
                     <div class="mb-6">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="message">Message</label>
-                        <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" rows="4" required></textarea>
+                        <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" name="message" rows="4" required></textarea>
                     </div>
                     <div class="flex items-center justify-center">
                         <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
