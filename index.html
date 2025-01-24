@@ -6,33 +6,33 @@
     <title>MaximAIze</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
 </head>
-<body class="bg-gray-50">
+<body class="bg-black">
     <!-- Navigation -->
-    <nav class="bg-white shadow-lg">
+    <nav class="bg-black border-b border-gray-800">
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between">
                 <div class="flex space-x-7">
                     <div class="flex items-center py-4">
-                        <img src="/logo.png" alt="MaximAIze Logo" class="h-8 w-8 mr-2">
-                        <span class="font-semibold text-gray-500 text-lg">MaximAIze</span>
+                        <img src="path/to/your/logo.png" alt="MaximAIze Logo" class="h-8 w-8 mr-2">
+                        <span class="font-semibold text-white text-lg">MaximAIze</span>
                     </div>
                 </div>
                 <div class="flex items-center space-x-8">
-                    <a href="#" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500">Home</a>
-                    <a href="#services" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500">Services</a>
-                    <a href="#contact" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500">Contact</a>
+                    <a href="#" class="py-4 px-2 text-white font-semibold hover:text-gray-300">Home</a>
+                    <a href="#services" class="py-4 px-2 text-white font-semibold hover:text-gray-300">Services</a>
+                    <a href="#contact" class="py-4 px-2 text-white font-semibold hover:text-gray-300">Contact</a>
                 </div>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <div class="bg-blue-600 text-white">
+    <div class="bg-black text-white">
         <div class="max-w-6xl mx-auto px-4 py-24">
             <div class="text-center">
                 <h1 class="text-4xl font-bold mb-4">AI Solutions for E-commerce Growth</h1>
                 <p class="text-xl mb-8">Transform your business with cutting-edge AI implementation</p>
-                <button class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100">
+                <button class="bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200">
                     Book Free Consultation
                 </button>
             </div>
@@ -41,55 +41,40 @@
 
     <!-- Services Section -->
     <div id="services" class="max-w-6xl mx-auto px-4 py-16">
-        <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+        <h2 class="text-3xl font-bold text-center mb-12 text-white">Our Services</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold mb-4">AI Implementation</h3>
-                <p class="text-gray-600">Custom AI solutions tailored for your e-commerce business needs.</p>
+            <div class="bg-gray-900 p-6 rounded-lg border border-gray-800">
+                <h3 class="text-xl font-semibold mb-4 text-white">AI Implementation</h3>
+                <p class="text-gray-300">Custom AI solutions tailored for your e-commerce business needs.</p>
             </div>
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold mb-4">Workflow Optimization</h3>
-                <p class="text-gray-600">Streamline your processes with AI-powered automation tools.</p>
+            <div class="bg-gray-900 p-6 rounded-lg border border-gray-800">
+                <h3 class="text-xl font-semibold mb-4 text-white">Workflow Optimization</h3>
+                <p class="text-gray-300">Streamline your processes with AI-powered automation tools.</p>
             </div>
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold mb-4">AI Training</h3>
-                <p class="text-gray-600">Learn how to leverage AI tools for maximum efficiency.</p>
+            <div class="bg-gray-900 p-6 rounded-lg border border-gray-800">
+                <h3 class="text-xl font-semibold mb-4 text-white">AI Training</h3>
+                <p class="text-gray-300">Learn how to leverage AI tools for maximum efficiency.</p>
             </div>
         </div>
     </div>
 
     <!-- Contact Section -->
-    <div id="contact" class="bg-gray-100">
+    <div id="contact" class="bg-gray-900">
         <div class="max-w-6xl mx-auto px-4 py-16">
-            <h2 class="text-3xl font-bold text-center mb-12">Get In Touch</h2>
-            <div class="max-w-md mx-auto bg-white rounded-lg shadow-md p-8">
-                <form action="mailto:maximaizeai@gmail.com" method="post" enctype="text/plain">
-                    <div class="mb-4">
-                        <label class="block text-gray-700 text-sm font-bold mb-2" for="name">Name</label>
-                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" name="name" type="text" required>
-                    </div>
-                    <div class="mb-4">
-                        <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
-                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" name="email" type="email" required>
-                    </div>
-                    <div class="mb-6">
-                        <label class="block text-gray-700 text-sm font-bold mb-2" for="message">Message</label>
-                        <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" name="message" rows="4" required></textarea>
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
-                            Send Message
-                        </button>
-                    </div>
-                </form>
+            <h2 class="text-3xl font-bold text-center mb-8 text-white">Get In Touch</h2>
+            <div class="text-center">
+                <p class="text-xl text-gray-300 mb-4">Ready to maximize your business potential?</p>
+                <a href="mailto:maximaizeai@gmail.com" class="inline-block bg-white text-black px-8 py-3 rounded-lg font-semibold hover:bg-gray-200">
+                    maximaizeai@gmail.com
+                </a>
             </div>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer class="bg-white">
+    <footer class="bg-black border-t border-gray-800">
         <div class="max-w-6xl mx-auto px-4 py-8">
-            <div class="text-center text-gray-500">
+            <div class="text-center text-gray-400">
                 <p>&copy; 2025 MaximAIze. All rights reserved.</p>
             </div>
         </div>
